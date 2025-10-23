@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tomodachi Coin Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Tomodachi Coin Game</h1>
+
+<div>
+  <input type="text" id="playerName" placeholder="Enter your name">
+  <input type="text" id="roomId" placeholder="Enter room ID">
+  <button id="joinBtn">Join Room</button>
+</div>
+
+<div id="roundInfo"></div>
+<img id="envelope" src="assets/envelope.png" style="display:none;width:80px;margin:10px auto;">
+<div id="countdown"></div>
+<div id="playersList"></div>
+
+<div id="voteSection">
+  <h3>Vote Now:</h3>
+  <button class="voteBtn" data-vote="Yes">Yes</button>
+  <button class="voteBtn" data-vote="No">No</button>
+</div>
+
+<div id="coin"></div>
+<div id="result"></div>
+
+<input id="chatInput" placeholder="Type (penalty applies)">
+<button id="sendBtn">Send</button>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
