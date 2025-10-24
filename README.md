@@ -4,6 +4,11 @@ An **interactive multiplayer psychological coin game** inspired by the *Tomodach
 Built using **Node.js**, **Express**, and **Socket.IO**, this project recreates the tension-filled coin challenge where trust, lies, and friendship are tested.
 
 ---
+## 🌐 Deployment Status
+
+The game currently runs locally using:
+```bash
+node server.js
 
 ## 🚀 Features
 
