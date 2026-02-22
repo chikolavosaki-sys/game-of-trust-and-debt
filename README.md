@@ -1,30 +1,30 @@
-# 🎮 Tomodachi Coin Game
+#  Tomodachi Coin Game
 
 An **interactive multiplayer psychological coin game** inspired by the *Tomodachi Game* anime.  
 Built using **Node.js**, **Express**, and **Socket.IO**, this project recreates the tension-filled coin challenge where trust, lies, and friendship are tested.
 
 ---
-## 🌐 Deployment Status
+##  Deployment Status
 
 The game currently runs locally using:
 ```bash
 node server.js
 
-## 🚀 Features
+##  Features
 
-- 🧠 Psychological yes/no coin game (5 rounds)
+- Psychological yes/no coin game (5 rounds)
 - 👥 Multiplayer (room-based system)
-- 🔁 Reader rotation after each round
-- 💰 Debt system (auto updates after results)
-- 🤐 Talking penalty (doubles debt)
-- 🪙 Real-time coin animation with sound
-- ⏱️ Countdown timer per round
-- ✉️ Animated envelope for reader question
-- 🌟 Modern UI/UX with blinking reader & effects
+-  Reader rotation after each round
+-  Debt system (auto updates after results)
+-  Talking penalty (doubles debt)
+-  Real-time coin animation with sound
+-  Countdown timer per round
+-  Animated envelope for reader question
+-  Modern UI/UX with blinking reader & effects
 
 ---
 
-## 🧩 Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |-------------|----------|
@@ -95,7 +95,7 @@ Coin flips to show result → debts update.
 
 After 5 rounds, the player with highest debt loses.
 
-🎨 UI & Effects
+ UI & Effects
 Blinking Reader Name
 
 Animated Envelope Reveal
@@ -106,18 +106,18 @@ Countdown Timer
 
 Dynamic Debt Display
 
-🔒 Disclaimer
+Disclaimer
 This game is meant for educational & entertainment purposes only.
 No real-money transactions or gambling elements are included.
 
-💡 Future Enhancements
-🎵 Background suspense music
+Future Enhancements
+Background suspense music
 
-📱 Responsive mobile version
+ Responsive mobile version
 
-🧩 AI-driven traitor hint system
+ AI-driven traitor hint system
 
-🌐 Online deployment (Render / Vercel)
+ Online deployment (Render / Vercel)
 
 
 🧑‍💻 Author
@@ -125,7 +125,7 @@ PRITHVI CHANDRA SURYA
 📧 p.c.surya001@gmail.com
 
 
-⭐ Contribute
+ Contribute
 If you’d like to improve this project:
 
 Fork it
